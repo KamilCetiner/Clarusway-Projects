@@ -1,0 +1,157 @@
+body{
+    margin-bottom: -40px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+
+}
+
+.form-area {
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 820px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    padding-top: 10px;
+    
+    
+
+    
+
+}
+
+.form-area p {
+    color: white;
+    
+}
+
+.form-area input, select{
+    margin-bottom: 3px;
+}
+
+.form-area input[type=submit] {
+    border:none;
+    height: 40px;
+    width: 180px;
+    outline: none;
+    color: #ffffff;
+    font-size: 21px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    margin-left: 100px;
+
+}
+
+.box input[type=text],
+.box input[type=number],
+.box input[type=email] {
+
+    
+    height:50px;
+    width:400px;
+    margin: 2px;
+}
+
+#slct {
+    height:35px;
+    width:380px;
+    margin: 2px;
+
+
+}
+
+.box-2 label{
+    color: #ffffff;
+    margin-left: -4px;
+
+}
+.box-2 p,label {
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-bottom: -3px;
+    font-size: 16px;
+}
+
+.box-3 p {
+
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-bottom: -1px;
+    font-size: 16px;
+}
+
+.box-3 label{
+
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-left: -3px;
+    margin-bottom: -1px;
+    font-size: 16px;
+}
+
+textarea {
+      
+    height:100%;
+    width:89%;
+    margin-top: -27px;
+    
+}
+
+.box-4 {
+
+    margin-bottom: 0px;
+
+
+}
+
+
+#Thank {
+    font-family: 'Sorts Mill Goudy', serif;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-size: 23px;
+    font-weight: bold;
+    float: auto;
+    z-index:1;
+    
+    
+   
+}
+
+#nfx {
+    font-family: 'Bowlby One SC', cursive;
+    position: absolute;
+    margin-top: 150px;
+    color:white;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 390px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    z-index:1;
+    
+    
+
+    
+}
+.soft_blck {
+    background-color: #000000;
+    position: relative;
+    width:100%;
+    height:950px;
+    color: #FFF;
+    margin-top: 40px;
+    opacity:0.4 ;
+    
+    
+    
+}
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web Page Survey" />
+    <meta name="author" content="Kamil Cetiner" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="netflix.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+        background-color: rgba(248, 247, 216, 0.7);
+    
+      }
+      
+    </style>
+
+    <title>Survey_Form</title>
+  </head>
+  <body>
+      <header>
+        <p id="nfx">Net<spam style="color:red">flix</span> </style> </p>
+        <p id="Thank">
+        Thank you for signing up at Netflix. Tell us more about your self</p>
+    
+      </header>
+    <div class="soft_blck">
+
+
+    </div>
+    <div class="form-area">
+      <form action="result.html" method="GET">
+          <div class="box">
+      <p>Name</p>
+      <input type="text" name="name"  placeholder="enter your name" required /><br />
+      <p>Age</p>
+      <input type="number" name="age" placeholder="age" min="18" max="65" /><br />
+      <p>E Mail</p>
+      <input type="email" name="email" placeholder="enter your Email" required/><br />
+      <p>Content type</p>
+      <select id="slct" name="text" id="">
+          <option value="movie">Series</option>
+          <option value="series">Movie</option>
+      </select>
+
+    </div>
+
+    <div class="box-2">
+
+      <p >Movie Type</p>
+        
+      <input type="checkbox" name="group1" value="comedy" id="comedy">
+      <label for="comedy"> Comedy </label></br>        
+      <input type="checkbox" name="group1" value="aktion" id="aktion">
+      <label for="aktion"> Aktion </label><br>
+      <input type="checkbox"  name="group1" value="romance" id="romance" checked>
+      <label for="romance" > Romance </label> 
+    </div>
+ 
+
+  <div class="box-3">
+    <p> Gender </p>
+
+    <input type="radio" name="gender" value="male">
+    <label id="l1" for="male">Male</label><br>
+    <input type="radio" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" name="gender" value="other">
+    <label for="other">Other</label>
+
+    </div>
+
+
+  <div class="box-4">
+      <p>Feed Back</p>    
+    <label for="feedback">Feedback</label>
+      <textarea name="feedback" rows="5" id="feedback" >any comment
+      </textarea><br><br>
+
+    </div>
+
+      <input type="Submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>
